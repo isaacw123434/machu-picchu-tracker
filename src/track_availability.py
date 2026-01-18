@@ -75,6 +75,7 @@ def run():
         return
 
     # Write to CSV
+    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     file_exists = os.path.isfile(DATA_FILE)
     fieldnames = ["scraped_at", "target_date", "route_name", "capacity", "available", "sold"]
     
