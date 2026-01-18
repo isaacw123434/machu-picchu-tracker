@@ -3,6 +3,7 @@ import csv
 import os
 import datetime
 import time
+from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 DATA_FILE = "data/availability_log.csv"
@@ -38,7 +39,7 @@ def run():
                     if isinstance(data, list):
                         # We assume the request handle happened before response handle
                         # Use current time as scrape time
-                        scrape_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        scrape_time = datetime.datetime.now(ZoneInfo("America/Lima")).strftime("%Y-%m-%d %H:%M:%S")
                         
                         for item in data:
                             # Calculate sold
