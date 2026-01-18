@@ -4,7 +4,7 @@ This repository tracks the availability of Machu Picchu tickets every 30 minutes
 
 ## How it works
 
-- A Python script (`track_availability.py`) uses [Playwright](https://playwright.dev/) to visit the [official ticket website](https://tuboleto.cultura.pe/disponibilidad/llaqta_machupicchu).
+- A Python script (`src/track_availability.py`) uses [Playwright](https://playwright.dev/) to visit the [official ticket website](https://tuboleto.cultura.pe/disponibilidad/llaqta_machupicchu).
 - It intercepts the network request that fetches the availability data.
 - It extracts the number of available tickets for each route (including "Ruta 2-A: Clásico Diseñada") and saves it to a CSV file.
 - A GitHub Action workflow runs this script every 30 minutes and commits the updated data to the repository.
@@ -30,7 +30,7 @@ The data is stored in `data/availability_log.csv`. The columns are:
 
 2. Run the script:
    ```bash
-   python track_availability.py
+   python src/track_availability.py
    ```
 
 3. Check `data/availability_log.csv` for the results.

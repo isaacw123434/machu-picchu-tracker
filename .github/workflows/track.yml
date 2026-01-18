@@ -23,7 +23,7 @@ jobs:
           playwright install chromium
 
       - name: Run tracking script
-        run: python track_availability.py
+        run: python src/track_availability.py
 
       - name: Commit and push changes
         run: |
