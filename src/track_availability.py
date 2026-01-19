@@ -3,6 +3,7 @@ import csv
 import os
 import datetime
 import time
+import re
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
@@ -19,7 +20,8 @@ def run():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        context = browser.new_context(timezone_id="America/Lima", locale="es-PE")
+        page = context.new_page()
         
         def handle_request(request):
             if "disponibilidad-actual" in request.url and request.method == "POST":
@@ -68,6 +70,33 @@ def run():
         # Wait for a bit to ensure requests are fired and processed
         print("Waiting for network activity...")
         page.wait_for_timeout(10000) 
+
+        # Scrape visible date from DOM for verification
+        try:
+            element = page.get_by_text("Disponibilidad para el día")
+            if element.count() > 0:
+                parent_text = element.first.evaluate("el => el.parentElement.innerText")
+                date_match = re.search(r"(\d{2})/(\d{2})/(\d{4})", parent_text)
+                if date_match:
+                    day, month, year = date_match.groups()
+                    visible_date = f"{year}-{month}-{day}"
+                    print(f"Visible date on page: {visible_date}")
+
+                    if context_data["target_date"] and context_data["target_date"] != visible_date:
+                        print(f"WARNING: Mismatch between intercepted date ({context_data['target_date']}) and visible date ({visible_date})")
+                    elif not context_data["target_date"]:
+                         print(f"Intercepted date missing. Using visible date: {visible_date}")
+                         context_data["target_date"] = visible_date
+                         # Backfill scraped data if needed
+                         for row in scraped_data:
+                             if row["target_date"] == "Unknown":
+                                 row["target_date"] = visible_date
+                else:
+                    print("Could not find date pattern in text.")
+            else:
+                print("'Disponibilidad para el día' text not found.")
+        except Exception as e:
+            print(f"Error scraping visible date: {e}")
         
         browser.close()
 
