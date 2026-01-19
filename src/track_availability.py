@@ -19,7 +19,8 @@ def run():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        context = browser.new_context(timezone_id="America/Lima")
+        page = context.new_page()
         
         def handle_request(request):
             if "disponibilidad-actual" in request.url and request.method == "POST":
