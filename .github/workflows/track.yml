@@ -2,7 +2,7 @@ name: Track Machu Picchu Tickets
 
 on:
   schedule:
-    - cron: '12,42 * * * *'  # Run every 30 minutes, avoiding the top of the hour
+    - cron: '*/5 * * * *'  # Run every 5 minutes to check if we should scrape (targeting 55, 10, 25, 40)
   workflow_dispatch:        # Allow manual triggering
 
 jobs:
