@@ -1,0 +1,1987 @@
+{
+  "history": [
+    {
+      "scraped_at": "2026-01-20T21:25:10.926420",
+      "incarail": {
+        "2026-W05": {
+          "date": "2026-01-26",
+          "trains": []
+        },
+        "2026-W06": {
+          "date": "2026-02-02",
+          "trains": []
+        },
+        "2026-W07": {
+          "date": "2026-02-09",
+          "trains": []
+        },
+        "2026-W08": {
+          "date": "2026-02-16",
+          "trains": []
+        }
+      },
+      "perurail": {
+        "Jan - Apr": [
+          {
+            "name": "Expedition",
+            "departure": "03:20",
+            "arrival": "07:40",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:05",
+            "arrival": "06:37",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:10",
+            "arrival": "09:15",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:40",
+            "arrival": "09:54",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:10",
+            "arrival": "07:40",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:40",
+            "arrival": "10:52",
+            "is_bimodal": true
+          },
+          {
+            "name": "Vistadome",
+            "departure": "07:05",
+            "arrival": "08:27",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "07:20",
+            "arrival": "12:24",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:45",
+            "arrival": "09:15",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:50",
+            "arrival": "12:11",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:54",
+            "arrival": "08:35",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:00",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "08:29",
+            "arrival": "09:54",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:53",
+            "arrival": "10:39",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "09:15",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "10:32",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "11:52",
+            "arrival": "13:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:30",
+            "arrival": "17:02",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:55",
+            "arrival": "14:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome Observatory",
+            "departure": "13:27",
+            "arrival": "14:50",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "14:50",
+            "arrival": "15:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "15:37",
+            "arrival": "17:02",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "16:30",
+            "arrival": "20:45",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "19:04",
+            "arrival": "20:45",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "21:00",
+            "arrival": "22:45",
+            "is_bimodal": false
+          }
+        ],
+        "May - Dec": [
+          {
+            "name": "Expedition",
+            "departure": "03:20",
+            "arrival": "07:40",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:05",
+            "arrival": "06:37",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:10",
+            "arrival": "09:15",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:40",
+            "arrival": "09:54",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:10",
+            "arrival": "07:40",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:40",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "06:50",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "07:05",
+            "arrival": "08:27",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:30",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:35",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:45",
+            "arrival": "09:15",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:54",
+            "arrival": "08:35",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:00",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "08:29",
+            "arrival": "09:54",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:53",
+            "arrival": "10:39",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "09:05",
+            "arrival": "12:24",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "09:15",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "10:32",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "10:53",
+            "arrival": "12:24",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "11:52",
+            "arrival": "13:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:30",
+            "arrival": "17:02",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:55",
+            "arrival": "14:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome\u00a0Observatory",
+            "departure": "13:27",
+            "arrival": "14:50",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "14:50",
+            "arrival": "15:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "15:37",
+            "arrival": "17:02",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "16:30",
+            "arrival": "20:45",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "19:04",
+            "arrival": "20:45",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "21:00",
+            "arrival": "22:45",
+            "is_bimodal": false
+          }
+        ]
+      }
+    },
+    {
+      "scraped_at": "2026-01-20T21:28:45.226485",
+      "incarail": {
+        "2026-W05": {
+          "date": "2026-01-26",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 65"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65"
+            }
+          ]
+        },
+        "2026-W06": {
+          "date": "2026-02-02",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 65"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65"
+            }
+          ]
+        },
+        "2026-W07": {
+          "date": "2026-02-09",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 65"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65"
+            }
+          ]
+        },
+        "2026-W08": {
+          "date": "2026-02-16",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65"
+            }
+          ]
+        }
+      },
+      "perurail": {
+        "Jan - Apr": [
+          {
+            "name": "Expedition",
+            "departure": "03:20",
+            "arrival": "07:40",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:05",
+            "arrival": "06:37",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:10",
+            "arrival": "09:15",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:40",
+            "arrival": "09:54",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:10",
+            "arrival": "07:40",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:40",
+            "arrival": "10:52",
+            "is_bimodal": true
+          },
+          {
+            "name": "Vistadome",
+            "departure": "07:05",
+            "arrival": "08:27",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "07:20",
+            "arrival": "12:24",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:45",
+            "arrival": "09:15",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:50",
+            "arrival": "12:11",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:54",
+            "arrival": "08:35",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:00",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "08:29",
+            "arrival": "09:54",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:53",
+            "arrival": "10:39",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "09:15",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "10:32",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "11:52",
+            "arrival": "13:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:30",
+            "arrival": "17:02",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:55",
+            "arrival": "14:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome Observatory",
+            "departure": "13:27",
+            "arrival": "14:50",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "14:50",
+            "arrival": "15:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "15:37",
+            "arrival": "17:02",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "16:30",
+            "arrival": "20:45",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "19:04",
+            "arrival": "20:45",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "21:00",
+            "arrival": "22:45",
+            "is_bimodal": false
+          }
+        ],
+        "May - Dec": [
+          {
+            "name": "Expedition",
+            "departure": "03:20",
+            "arrival": "07:40",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:05",
+            "arrival": "06:37",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:10",
+            "arrival": "09:15",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:40",
+            "arrival": "09:54",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:10",
+            "arrival": "07:40",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:40",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "06:50",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "07:05",
+            "arrival": "08:27",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:30",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:35",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:45",
+            "arrival": "09:15",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:54",
+            "arrival": "08:35",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:00",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "08:29",
+            "arrival": "09:54",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:53",
+            "arrival": "10:39",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "09:05",
+            "arrival": "12:24",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "09:15",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "10:32",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "10:53",
+            "arrival": "12:24",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "11:52",
+            "arrival": "13:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:30",
+            "arrival": "17:02",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:55",
+            "arrival": "14:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome\u00a0Observatory",
+            "departure": "13:27",
+            "arrival": "14:50",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "14:50",
+            "arrival": "15:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "15:37",
+            "arrival": "17:02",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "16:30",
+            "arrival": "20:45",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "19:04",
+            "arrival": "20:45",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "21:00",
+            "arrival": "22:45",
+            "is_bimodal": false
+          }
+        ]
+      }
+    },
+    {
+      "scraped_at": "2026-01-20T21:32:06.857165",
+      "incarail": {
+        "2026-W05": {
+          "date": "2026-01-26",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 92",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "04:50",
+              "arrival": "08:48",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "04:50",
+              "arrival": "08:48",
+              "price": "USD 99",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 373",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 153",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 112",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 170",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:15",
+              "arrival": "21:09",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            }
+          ]
+        },
+        "2026-W06": {
+          "date": "2026-02-02",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 92",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "04:50",
+              "arrival": "08:48",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "04:50",
+              "arrival": "08:48",
+              "price": "USD 99",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 373",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 153",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 112",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 170",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:15",
+              "arrival": "21:09",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            }
+          ]
+        },
+        "2026-W07": {
+          "date": "2026-02-09",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 92",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "04:50",
+              "arrival": "08:48",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "04:50",
+              "arrival": "08:48",
+              "price": "USD 99",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 373",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 153",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 112",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 170",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:15",
+              "arrival": "21:09",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            }
+          ]
+        },
+        "2026-W08": {
+          "date": "2026-02-16",
+          "trains": [
+            {
+              "name": "The Voyager",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "06:40",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "07:22",
+              "arrival": "08:48",
+              "price": "USD 85",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 353",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "11:15",
+              "arrival": "12:41",
+              "price": "USD 123",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "12:36",
+              "arrival": "14:00",
+              "price": "USD 82",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 69",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "16:36",
+              "arrival": "18:09",
+              "price": "USD 140",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "19:27",
+              "arrival": "21:09",
+              "price": "USD 65",
+              "route": "Ollantaytambo - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "04:20",
+              "arrival": "08:01",
+              "price": "USD 92",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "04:50",
+              "arrival": "08:48",
+              "price": "USD 99",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The First Class",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 373",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "08:30",
+              "arrival": "12:41",
+              "price": "USD 153",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The 360\u00b0",
+              "departure": "09:55",
+              "arrival": "14:00",
+              "price": "USD 112",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 89",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Prime",
+              "departure": "13:30",
+              "arrival": "18:09",
+              "price": "USD 170",
+              "route": "Cusco - Machu Picchu"
+            },
+            {
+              "name": "The Voyager",
+              "departure": "16:15",
+              "arrival": "21:09",
+              "price": "USD 79",
+              "route": "Cusco - Machu Picchu"
+            }
+          ]
+        }
+      },
+      "perurail": {
+        "Jan - Apr": [
+          {
+            "name": "Expedition",
+            "departure": "03:20",
+            "arrival": "07:40",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:05",
+            "arrival": "06:37",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:10",
+            "arrival": "09:15",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:40",
+            "arrival": "09:54",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:10",
+            "arrival": "07:40",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:40",
+            "arrival": "10:52",
+            "is_bimodal": true
+          },
+          {
+            "name": "Vistadome",
+            "departure": "07:05",
+            "arrival": "08:27",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "07:20",
+            "arrival": "12:24",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:45",
+            "arrival": "09:15",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:50",
+            "arrival": "12:11",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:54",
+            "arrival": "08:35",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:00",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "08:29",
+            "arrival": "09:54",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:53",
+            "arrival": "10:39",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "09:15",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "10:32",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "11:52",
+            "arrival": "13:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:30",
+            "arrival": "17:02",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:55",
+            "arrival": "14:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome Observatory",
+            "departure": "13:27",
+            "arrival": "14:50",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "14:50",
+            "arrival": "15:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "15:37",
+            "arrival": "17:02",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "16:30",
+            "arrival": "20:45",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "19:04",
+            "arrival": "20:45",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "21:00",
+            "arrival": "22:45",
+            "is_bimodal": false
+          }
+        ],
+        "May - Dec": [
+          {
+            "name": "Expedition",
+            "departure": "03:20",
+            "arrival": "07:40",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:05",
+            "arrival": "06:37",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:10",
+            "arrival": "09:15",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "05:40",
+            "arrival": "09:54",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:10",
+            "arrival": "07:40",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "06:40",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "06:50",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "07:05",
+            "arrival": "08:27",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:30",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:35",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:45",
+            "arrival": "09:15",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "07:54",
+            "arrival": "08:35",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:00",
+            "arrival": "09:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "08:29",
+            "arrival": "09:54",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome",
+            "departure": "08:53",
+            "arrival": "10:39",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "09:05",
+            "arrival": "12:24",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "09:15",
+            "arrival": "10:52",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "10:32",
+            "arrival": "12:11",
+            "is_bimodal": false
+          },
+          {
+            "name": "Hiram Bingham, a Belmond Train",
+            "departure": "10:53",
+            "arrival": "12:24",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "11:52",
+            "arrival": "13:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:30",
+            "arrival": "17:02",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "12:55",
+            "arrival": "14:25",
+            "is_bimodal": false
+          },
+          {
+            "name": "Vistadome\u00a0Observatory",
+            "departure": "13:27",
+            "arrival": "14:50",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "14:50",
+            "arrival": "15:34",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "15:37",
+            "arrival": "17:02",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "16:30",
+            "arrival": "20:45",
+            "is_bimodal": true
+          },
+          {
+            "name": "Expedition",
+            "departure": "19:04",
+            "arrival": "20:45",
+            "is_bimodal": false
+          },
+          {
+            "name": "Expedition",
+            "departure": "21:00",
+            "arrival": "22:45",
+            "is_bimodal": false
+          }
+        ]
+      }
+    }
+  ]
+}
