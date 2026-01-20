@@ -63,13 +63,14 @@ def get_last_run_time():
             # CSV format: scraped_at,target_date,...
             # 2026-01-19 00:16:55
             timestamp_str = last_line.split(',')[0]
-            return datetime.datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
+            dt = datetime.datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
+            return dt.replace(tzinfo=ZoneInfo("America/Lima"))
     except Exception as e:
         print(f"Error reading last run time: {e}")
         return None
 
 def run():
-    current_time = datetime.datetime.now()
+    current_time = datetime.datetime.now(ZoneInfo("America/Lima"))
     last_run = get_last_run_time()
 
     if not should_run(last_run, current_time):
