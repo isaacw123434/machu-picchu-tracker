@@ -2,7 +2,7 @@ name: Track Machu Picchu Tickets
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Run every 30 minutes
+    - cron: '12,42 * * * *'  # Run every 30 minutes, avoiding the top of the hour
   workflow_dispatch:        # Allow manual triggering
 
 jobs:
