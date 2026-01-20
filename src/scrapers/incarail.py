@@ -9,9 +9,13 @@ class IncaRailScraper:
     def __init__(self):
         self.base_url = "https://zonasegura.incarail.com/itinerario/buscar?language=en"
 
-    def scrape(self, weeks=2):
+    def scrape(self, weeks=2, check_dates=None):
         results = {}
-        dates = self._get_dates(weeks)
+        if check_dates:
+            dates = check_dates
+        else:
+            dates = self._get_dates(weeks)
+
         routes = ["Ollantaytambo - Machu Picchu", "Cusco - Machu Picchu"]
 
         with sync_playwright() as p:
@@ -21,9 +25,9 @@ class IncaRailScraper:
 
             for date_str in dates:
                 print(f"Scraping IncaRail for {date_str}...")
-                week_str = self._get_week_str(date_str)
-                if week_str not in results:
-                    results[week_str] = {
+
+                if date_str not in results:
+                    results[date_str] = {
                         "date": date_str,
                         "trains": []
                     }
@@ -34,7 +38,7 @@ class IncaRailScraper:
                     # Add route info to trains
                     for t in trains:
                         t["route"] = route
-                    results[week_str]["trains"].extend(trains)
+                    results[date_str]["trains"].extend(trains)
 
             browser.close()
         return results
@@ -53,11 +57,6 @@ class IncaRailScraper:
             dates.append(d.strftime("%Y-%m-%d"))
 
         return dates
-
-    def _get_week_str(self, date_str):
-        d = datetime.datetime.strptime(date_str, "%Y-%m-%d")
-        year, week, _ = d.isocalendar()
-        return f"{year}-W{week:02d}"
 
     def _scrape_date_route(self, page, date_str, route_name):
         d = datetime.datetime.strptime(date_str, "%Y-%m-%d")
