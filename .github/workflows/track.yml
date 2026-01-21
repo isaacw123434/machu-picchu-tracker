@@ -1,8 +1,9 @@
 name: Track Machu Picchu Tickets
 
 on:
+  push:
   schedule:
-    - cron: '*/5 * * * *'  # Run every 5 minutes to check if we should scrape (targeting 55, 10, 25, 40)
+    - cron: '*/5 * * * *'  # Run every 5 minutes
   workflow_dispatch:        # Allow manual triggering
 
 jobs:
