@@ -10,60 +10,9 @@ from playwright.sync_api import sync_playwright
 DATA_FILE = "data/availability_log.csv"
 URL = "https://tuboleto.cultura.pe/disponibilidad/llaqta_machupicchu"
 
-def should_run(last_run_time, current_time):
-    """
-    Decides whether to run the scraper based on the last run time.
-
-    New Logic:
-    - Run if elapsed time >= 14 minutes.
-    - This handles the 15-minute interval requirement while allowing for startup latency.
-    """
-    if last_run_time is None:
-        return True
-
-    elapsed_minutes = (current_time - last_run_time).total_seconds() / 60
-
-    # Simple check: has it been roughly 15 minutes?
-    if elapsed_minutes >= 14:
-        print(f"Running: {elapsed_minutes:.1f} minutes since last run.")
-        return True
-
-    print(f"Skipping: Only {elapsed_minutes:.1f} minutes since last run.")
-    return False
-
-def get_last_run_time():
-    if not os.path.exists(DATA_FILE):
-        return None
-
-    try:
-        with open(DATA_FILE, 'r', encoding='utf-8') as f:
-            # Read just the last non-empty line efficiently-ish?
-            # For small files, reading lines is fine.
-            lines = f.readlines()
-            if len(lines) < 2: # Header only or empty
-                return None
-
-            last_line = lines[-1].strip()
-            if not last_line:
-                return None
-
-            # CSV format: scraped_at,target_date,...
-            # 2026-01-19 00:16:55
-            timestamp_str = last_line.split(',')[0]
-            # Parse as Peru time (since that's what is in the CSV)
-            return datetime.datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZoneInfo("America/Lima"))
-    except Exception as e:
-        print(f"Error reading last run time: {e}")
-        return None
-
 def run():
     # Compare with current Peru time
     current_time = datetime.datetime.now(ZoneInfo("America/Lima"))
-    last_run = get_last_run_time()
-
-    if not should_run(last_run, current_time):
-        print("Scraper decided not to run at this time.")
-        return
 
     print(f"Starting scrape at {current_time}")
     
