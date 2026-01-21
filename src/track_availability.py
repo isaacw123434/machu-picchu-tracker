@@ -15,16 +15,16 @@ def should_run(last_run_time, current_time):
     Decides whether to run the scraper based on the last run time.
 
     New Logic:
-    - Run if elapsed time >= 14 minutes.
-    - This handles the 15-minute interval requirement while allowing for startup latency.
+    - Run if elapsed time >= 4 minutes.
+    - This handles the 5-minute interval requirement while allowing for startup latency.
     """
     if last_run_time is None:
         return True
 
     elapsed_minutes = (current_time - last_run_time).total_seconds() / 60
 
-    # Simple check: has it been roughly 15 minutes?
-    if elapsed_minutes >= 14:
+    # Simple check: has it been roughly 5 minutes?
+    if elapsed_minutes >= 4:
         print(f"Running: {elapsed_minutes:.1f} minutes since last run.")
         return True
 
