@@ -69,7 +69,8 @@ def get_last_run_time():
         return None
 
 def run():
-    current_time = datetime.datetime.now()
+    # Use Lima time for consistency with CSV log
+    current_time = datetime.datetime.now(ZoneInfo("America/Lima")).replace(tzinfo=None)
     last_run = get_last_run_time()
 
     if not should_run(last_run, current_time):
