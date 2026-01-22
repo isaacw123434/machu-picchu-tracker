@@ -4,6 +4,7 @@ import os
 import datetime
 import time
 import re
+from collections import deque
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
@@ -13,6 +14,25 @@ URL = "https://tuboleto.cultura.pe/disponibilidad/llaqta_machupicchu"
 def run():
     # Compare with current Peru time
     current_time = datetime.datetime.now(ZoneInfo("America/Lima"))
+
+    # Check last scrape time
+    if os.path.exists(DATA_FILE) and os.path.getsize(DATA_FILE) > 0:
+        try:
+            with open(DATA_FILE, 'r', encoding='utf-8') as f:
+                last_line = deque(f, 1)[0]
+                # Parse scraped_at
+                last_scraped_at_str = last_line.split(',')[0]
+                if last_scraped_at_str != "scraped_at": # skip header if it's the only line
+                    last_scraped_at = datetime.datetime.strptime(last_scraped_at_str, "%Y-%m-%d %H:%M:%S")
+                    # Set timezone to Lima
+                    last_scraped_at = last_scraped_at.replace(tzinfo=ZoneInfo("America/Lima"))
+
+                    time_diff = current_time - last_scraped_at
+                    if time_diff < datetime.timedelta(minutes=10):
+                        print(f"Last scrape was {time_diff} ago (at {last_scraped_at}). Skipping.")
+                        return
+        except Exception as e:
+            print(f"Error checking last scrape time: {e}")
 
     print(f"Starting scrape at {current_time}")
     
